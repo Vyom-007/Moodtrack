@@ -6,7 +6,7 @@ A real-time emotion detection and stress monitoring system using DeepFace, Tenso
 
 ---
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
 - [Features](#features)
@@ -20,7 +20,7 @@ A real-time emotion detection and stress monitoring system using DeepFace, Tenso
 
 ---
 
-## 🎯 Overview
+## Overview
 
 MoodTrack is a comprehensive Video Mood & Stress Detection System that analyzes facial expressions in real-time to:
 - Detect 7 emotions (Happy, Sad, Angry, Fear, Surprise, Disgust, Neutral)
@@ -31,31 +31,31 @@ MoodTrack is a comprehensive Video Mood & Stress Detection System that analyzes 
 
 ---
 
-## ✨ Features
+## Features
 
 ### Backend Features
-✅ Real-time face detection & tracking  
-✅ 7-emotion classification using DeepFace  
-✅ Stress level calculation (0-100%)  
-✅ Confidence scores per emotion  
-✅ Session history tracking (last 5 minutes)  
-✅ RESTful API with 6 endpoints  
-✅ CORS enabled for frontend integration  
-✅ Multi-threading for performance  
+Real-time face detection & tracking  
+7-emotion classification using DeepFace  
+Stress level calculation (0-100%)  
+Confidence scores per emotion  
+Session history tracking (last 5 minutes)  
+RESTful API with 6 endpoints  
+CORS enabled for frontend integration  
+Multi-threading for performance  
 
 ### Frontend Features
-✅ Real-time dashboard with live updates  
-✅ Animated stress gauge with color zones  
-✅ 7 emotion progress bars  
-✅ Timeline trend graphs  
-✅ Session statistics & analytics  
-✅ Emotion distribution charts  
-✅ Export/Reset controls  
-✅ Mobile responsive design  
+Real-time dashboard with live updates  
+Animated stress gauge with color zones  
+7 emotion progress bars  
+Timeline trend graphs  
+Session statistics & analytics  
+Emotion distribution charts  
+Export/Reset controls  
+Mobile responsive design  
 
 ---
 
-## 💻 System Requirements
+## System Requirements
 
 | Component | Requirement |
 |-----------|-------------|
@@ -67,7 +67,7 @@ MoodTrack is a comprehensive Video Mood & Stress Detection System that analyzes 
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Step 1: Clone/Download Project
 
@@ -118,16 +118,16 @@ pip install Pillow numpy scipy pandas requests
 #### 2.3 Verify Backend Installation
 
 ```bash
-python -c "import tensorflow as tf; print('✅ TensorFlow', tf.__version__)"
-python -c "from deepface import DeepFace; print('✅ DeepFace Ready')"
-python -c "import cv2; print('✅ OpenCV', cv2.__version__)"
+python -c "import tensorflow as tf; print('TensorFlow', tf.__version__)"
+python -c "from deepface import DeepFace; print('DeepFace Ready')"
+python -c "import cv2; print('OpenCV', cv2.__version__)"
 ```
 
 Expected output:
 ```
-✅ TensorFlow 2.20.0
-✅ DeepFace Ready
-✅ OpenCV 4.10.0
+TensorFlow 2.20.0
+DeepFace Ready
+OpenCV 4.10.0
 ```
 
 ---
@@ -177,7 +177,7 @@ Edit `src/index.css` (add at the top):
 
 ---
 
-## ▶️ Running the Application
+## Running the Application
 
 ### Start Backend (Terminal 1)
 
@@ -199,10 +199,10 @@ python server.py
 
 📡 Starting Backend Server...
 
-✅ Emotion detection thread started
-📹 Webcam initialized - waiting for faces...
+Emotion detection thread started
+Webcam initialized - waiting for faces...
 
-✅ Backend Server Ready!
+Backend Server Ready!
 📍 API Endpoints:
    • GET  http://localhost:5000/emotion
    • GET  http://localhost:5000/history
@@ -211,11 +211,11 @@ python server.py
    • GET  http://localhost:5000/export
    • POST http://localhost:5000/reset
 
-🌐 Frontend should connect to: http://localhost:5000
+Frontend should connect to: http://localhost:5000
 ============================================================
 ```
 
-⚠️ **IMPORTANT:** Keep this terminal window open!
+**IMPORTANT:** Keep this terminal window open!
 
 ---
 
@@ -242,7 +242,7 @@ Your browser should automatically open to `http://localhost:3000`.
 
 ---
 
-## ✅ Verification Checklist
+## Verification Checklist
 
 Once both backend and frontend are running:
 
@@ -257,7 +257,7 @@ Once both backend and frontend are running:
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Issue 1: Port 5000 Already in Use
 
@@ -355,7 +355,7 @@ Error fetching emotion: Network error
 
 ---
 
-## 📡 API Documentation
+## API Documentation
 
 ### GET `/emotion`
 Returns current detected emotion and stress level.
@@ -481,7 +481,7 @@ moodtrack-project/
 
 ---
 
-## 🎓 For Hackathon Judges
+## For Hackathon Judges
 
 ### Problem Statement
 Implement a system that captures real-time video, detects faces, extracts facial landmarks and micro-expressions, classifies emotional states, and displays a real-time mood/stress dashboard.
@@ -544,7 +544,7 @@ Implement a system that captures real-time video, detects faces, extracts facial
 
 ---
 
-## 📝 Testing the Application
+## Testing the Application
 
 ### Dashboard Tab
 - Shows current emotion with emoji
@@ -569,7 +569,7 @@ Implement a system that captures real-time video, detects faces, extracts facial
 
 ---
 
-## 🎬 Demo Script (2-3 minutes)
+## Demo Script (2-3 minutes)
 
 1. **Introduction**
    - "MoodTrack detects emotions in real-time using AI"
@@ -594,7 +594,7 @@ Implement a system that captures real-time video, detects faces, extracts facial
 
 ---
 
-## 🔧 Quick Commands Reference
+## Quick Commands Reference
 
 ```bash
 # Activate venv (Windows)
@@ -633,7 +633,7 @@ python -c "from deepface import DeepFace; print('OK')"
 
 ---
 
-## 🆘 Getting Help
+## Getting Help
 
 **Hackathon Support:**
 - Email: vyom70singhal@gmail.com
@@ -649,19 +649,19 @@ python -c "from deepface import DeepFace; print('OK')"
 
 ---
 
-## 📄 License
+## License
 
 MIT License - Created for AI VERSE 2.0 Hackathon
 
 ---
 
-## 🎉 Success!
+## Success!
 
 If you see:
-- ✅ Backend: "Backend Server Ready!"
-- ✅ Frontend: MoodTrack app in browser
-- ✅ Face detected indicator active
-- ✅ Real-time emotion updates
+- Backend: "Backend Server Ready!"
+- Frontend: MoodTrack app in browser
+- Face detected indicator active
+- Real-time emotion updates
 
 **Your application is fully functional!** 🚀
 
@@ -670,4 +670,4 @@ If you see:
 **Version:** 1.0.0  
 **Date:** October 26, 2025  
 **Event:** AI VERSE 2.0 - Augment AI, BMSCE  
-**Status:** ✅ PRODUCTION READY
+**Status:** PRODUCTION READY
