@@ -246,14 +246,14 @@ Your browser should automatically open to `http://localhost:3000`.
 
 Once both backend and frontend are running:
 
-- [ ] Backend terminal shows "Backend Server Ready!"
-- [ ] Frontend opens in browser at http://localhost:3000
-- [ ] Green "Face Detected" indicator visible (position your face in front of webcam)
-- [ ] Emotion name updates in real-time
-- [ ] Stress gauge shows percentage
-- [ ] 7 emotion bars display percentages
-- [ ] All tabs (Dashboard, Analytics, History, Settings) clickable
-- [ ] No errors in browser console (Press F12)
+- Backend terminal shows "Backend Server Ready!"
+- Frontend opens in browser at http://localhost:3000
+- Green "Face Detected" indicator visible (position your face in front of webcam)
+- Emotion name updates in real-time
+- Stress gauge shows percentage
+- 7 emotion bars display percentages
+- All tabs (Dashboard, Analytics, History, Settings) clickable
+- No errors in browser console (Press F12)
 
 ---
 
