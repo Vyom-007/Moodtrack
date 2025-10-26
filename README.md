@@ -636,8 +636,8 @@ python -c "from deepface import DeepFace; print('OK')"
 ## 🆘 Getting Help
 
 **Hackathon Support:**
-- Email: augment_ai@bmsce.ac.in
-- Phone: 9472818251
+- Email: vyom70singhal@gmail.com
+- Phone: 7451977502
 
 **Common Issues:**
 1. Check both terminals are running
@@ -671,5 +671,3 @@ If you see:
 **Date:** October 26, 2025  
 **Event:** AI VERSE 2.0 - Augment AI, BMSCE  
 **Status:** ✅ PRODUCTION READY
-
-**Good luck with your presentation! 🎭**
